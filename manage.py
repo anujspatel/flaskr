@@ -5,5 +5,5 @@ from fuckr import app
 manager = Manager(app)
 
 if __name__ == "__main__":
-	init_db()
+	fuckr.init_db()
     manager.run()
