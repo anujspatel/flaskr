@@ -1,1 +1,1 @@
-web: python fuckr
+web: python fuckr.py
