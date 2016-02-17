@@ -8,7 +8,7 @@ from models import Post
 from sqlalchemy.ext.declarative import declarative_base
 
 # configuration
-DATABASE = 'postgres://jvboxdoteibqym:odX3pHHb3_3wTUkJ74E01n9fZE@ec2-107-20-224-236.compute-1.amazonaws.com:5432/d587k6ep6dgn14'
+DATABASE = 'postgres://jyyhdwzznpxdui:J95RiTuce6sLygy1LHff5nsKrc@ec2-54-83-29-133.compute-1.amazonaws.com:5432/dbi5flsrif9i9v'
 DEBUG = True
 SECRET_KEY = 'development key'
 USERNAME = 'admin'
