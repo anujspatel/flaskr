@@ -5,4 +5,5 @@ from fuckr import app
 manager = Manager(app)
 
 if __name__ == "__main__":
+	app.init_db();
     manager.run()
