@@ -1,3 +1,4 @@
-from fuckr import app
+import fuckr
 
-fuckr.initdb_command()
+if __name__ == "__main__":
+	fuckr.initdb_command()
