@@ -1,10 +1,8 @@
 #!/usr/bin/env python
-import os, sys
-
-import sqlite3
-from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
-from contextlib import closing
+from flask.ext.script import Manager
 from fuckr import app
 
-if __name__ == '__main__':
-	app.run()
+manager = Manager(app)
+
+if __name__ == "__main__":
+    manager.run()
