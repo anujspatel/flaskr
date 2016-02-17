@@ -22,6 +22,7 @@ def initdb_command():
 # create our little application :)
 app = Flask(__name__)
 app.config.from_object(__name__)
+initdb_command()
 
 def print_All_Entries():
     for post in db_session.query(Post).order_by(Post.id):
