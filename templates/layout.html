@@ -1,16 +1,17 @@
 <!doctype html>
-<head profile="https://fuckoil.herokuapp.com/">
+<head profile="https://putsorcalls.herokuapp.com/">
 <link rel="icon" 
       type="image/png" 
       href="http://puu.sh/nchPl/f8aab7eb1c.png">
-<title>FUCK OIL</title>
+<title>Puts or Calls</title>
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 <div class=page>
-  <h1>FUCK oil</h1>
-  <h2>talk about how oil sucks dick here. this is the new /r/wallstreetbets<h2>
-  <p><center><img src="http://puu.sh/ncfBP/6530b35021.png" alt="FUCK YOU" style="width:500px;height:228px;"></center></p>
+  <center><h1>Puts or Calls</h1>
+  <h2>Anuj's trading activity site on his journey to a BMW i8<h2></center>
+  <p><center><img src="http://puu.sh/ncfBP/6530b35021.png" alt="woops" style="width:500px;height:228px;"></center></p>
   <div class=metanav>
     <a href="/">home</a>
+    <a href="{{ url_for('login') }}">about</a>
   {% if not session.logged_in %}
     <a href="{{ url_for('login') }}">log in</a>
   {% else %}
@@ -22,4 +23,4 @@
   {% endfor %}
   {% block body %}{% endblock %}
 </div>
-<center><h5>designed by a retard</h5></center>
+<center><h5>created by anuj patel, trader of options, cs/haas berkeley '19</h5></center>

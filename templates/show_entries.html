@@ -14,10 +14,10 @@
   <ul class=entries>
     <h4>Posts:</h4> 
   {% for entry in entries %}
-    <li><h3>{{ entry.title }}</h3>
+    <li><h6>{{ entry.title }}</h6>
     {{ entry.text|safe }}
   {% else %}
-    <li><em>Unbelievable.  No entries here so far</em>
+    <li><em>Nothings here. Wtf. Markets closed?</em>
   {% endfor %}
   </ul>
 {% endblock %}
